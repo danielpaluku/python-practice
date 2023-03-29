@@ -1,0 +1,8 @@
+name: cs197lec2
+channels:
+  - conda-forge
+  - https://conda.ccdc.cam.ac.uk
+dependencies:
+  - python=3.9
+  - tqdm
+prefix: /Users/danielpaluku/opt/anaconda3/envs/cs197lec2
