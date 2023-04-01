@@ -22,10 +22,10 @@ def numberOfWays(start_pos: int, endPos: int, k: int) -> int:
     for i in tqdm(range(k)):
         for _ in range(len(paths)):
             new_path = paths.pop(0)
-            last_position = new_path[-1] #Comment for the purpose of practice
+            last_position = new_path[-1]  #Comment for the purpose of practice
 
             # exist fast if not going to make to end
-            if endPos - last_position > (k - i ):
+            if endPos - last_position > (k - i):
                 continue
             # path that goes to the left
             new_path_left = new_path + [last_position - 1]
